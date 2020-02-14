@@ -7,20 +7,73 @@ public class Word {
         this.word=word;
     }
 
-    public char[] ChangeWordtoArray( String word ){
-        char[] ArrayOfLetter =word.toCharArray();
-        return ArrayOfLetter;
+    @Override
+    public String toString() {
+        return word;
     }
 
-    public int calcaluateScores (char[] array){
-        int Scores=0;
+    public char[] ChangeWordToArray(){
+        String newWord = prepareWordForProcessing();
+        char[] ArrayOfLetters = newWord.toCharArray();
+        return ArrayOfLetters;
+    }
+
+    public int calculateScores (){
+        char[] wordArray = ChangeWordToArray();
+        int scores=0;
         LetterValues letterValues = new LetterValues();
-        for (char x:array){
-            for(int i=0; i<letterValues.getLettersWorthOnePoint().length; i++){
-
+        for (char x:wordArray){
+            for (char letter:letterValues.getLettersWorthOnePoint()) {
+                if (x == letter){
+                    scores += 1;
+                    break;
+                }
             }
-
+            for (char letter:letterValues.getLettersWorthTwoPoint()) {
+                if (x == letter){
+                    scores += 2;
+                    break;
+                }
+            }
+            for (char letter:letterValues.getLettersWorthThreePoint()) {
+                if (x == letter){
+                    scores += 3;
+                    break;
+                }
+            }
+            for (char letter:letterValues.getLettersWorthFourPoint()) {
+                if (x == letter){
+                    scores += 4;
+                    break;
+                }
+            }
+            for (char letter:letterValues.getLettersWorthFivePoint()) {
+                if (x == letter){
+                    scores += 5;
+                    break;
+                }
+            }
+            for (char letter:letterValues.getLettersWorthEightPoint()) {
+                if (x == letter){
+                    scores += 8;
+                    break;
+                }
+            }
+            for (char letter:letterValues.getLettersWorthTenPoint()) {
+                if (x == letter){
+                    scores += 10;
+                    break;
+                }
+            }
         }
+        return scores;
+    }
+
+    public String prepareWordForProcessing(){
+        String newWord = word;
+        newWord = newWord.toLowerCase();
+        newWord = newWord.replaceAll("[^a-z-]", "");
+        return newWord;
 
     }
 }

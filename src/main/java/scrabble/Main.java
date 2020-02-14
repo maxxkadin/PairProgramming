@@ -8,14 +8,13 @@ public class Main {
 
     public static void main(String[] args) {
         try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
-            System.out.println("What word do you want to get the value for?");  //Ask the user the size
-            String wordInput = br.readLine();
+            System.out.println("What word do you want to get the value for?");
+            Word wordInput = new Word(br.readLine());
             System.out.println("Calculating value...");
+            System.out.println("The value of *" + wordInput.toString() + "* is: " + wordInput.calculateScores());
         } catch (
                 IOException e) {
             System.out.println("IO Exception");
         }
-
     }
-
 }

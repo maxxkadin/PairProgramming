@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5bed2033-2e4e-4cca-a299-e19d18807c9c" name="Default Changelist" comment="" />
+    <list default="true" id="5bed2033-2e4e-4cca-a299-e19d18807c9c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/tests/scrabble/FinalTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/scrabble/WordTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrabble/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrabble/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrabble/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrabble/Word.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -28,9 +37,22 @@
   <component name="ProjectId" id="1XiTm00JfUyFNFZF5UXnypbkqzK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="scrabble" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\maxza\Documents\CS222 Projects\PairProgramming\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -44,6 +66,92 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="scrabble.Main" />
+      <module name="PairProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scrabble.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinalTests.calculateScoresTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PairProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scrabble.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scrabble" />
+      <option name="MAIN_CLASS_NAME" value="scrabble.FinalTests" />
+      <option name="METHOD_NAME" value="calculateScoresTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordTest.calculateScoresTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PairProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scrabble.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scrabble" />
+      <option name="MAIN_CLASS_NAME" value="scrabble.WordTest" />
+      <option name="METHOD_NAME" value="calculateScoresTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordTest.prepareWordForProcessingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PairProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scrabble.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scrabble" />
+      <option name="MAIN_CLASS_NAME" value="scrabble.WordTest" />
+      <option name="METHOD_NAME" value="prepareWordForProcessingTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="scrabble in PairProgramming" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PairProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scrabble.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scrabble" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.scrabble in PairProgramming" />
+        <item itemvalue="JUnit.FinalTests.calculateScoresTest" />
+        <item itemvalue="JUnit.WordTest.prepareWordForProcessingTest" />
+        <item itemvalue="JUnit.WordTest.calculateScoresTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -56,5 +164,16 @@
       <updated>1581528069761</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
