@@ -17,13 +17,13 @@ public class LetterValues {
          String fivePointLetters = "k";
          String eightPointLetters = "jx";
          String tenPointLetters = "qz";
-        lettersWorthOnePoint=onePointLetters.toCharArray();
-        lettersWorthTwoPoint=twoPointLetters.toCharArray();
-        lettersWorthThreePoint=threePointLetters.toCharArray();
-        lettersWorthFourPoint=fourPointLetters.toCharArray();
-        lettersWorthFivePoint=fivePointLetters.toCharArray();
-        lettersWorthEightPoint=eightPointLetters.toCharArray();
-        lettersWorthTenPoint=tenPointLetters.toCharArray();
+         lettersWorthOnePoint=onePointLetters.toCharArray();
+         lettersWorthTwoPoint=twoPointLetters.toCharArray();
+         lettersWorthThreePoint=threePointLetters.toCharArray();
+         lettersWorthFourPoint=fourPointLetters.toCharArray();
+         lettersWorthFivePoint=fivePointLetters.toCharArray();
+         lettersWorthEightPoint=eightPointLetters.toCharArray();
+         lettersWorthTenPoint=tenPointLetters.toCharArray();
     }
 
     public char[] getLettersWorthOnePoint() {
